@@ -69,7 +69,7 @@ print("Connected")
 
 
 todayDate = time.strftime("%d-%m-%y")
-directory = '/hepsipay/'
+directory = '/directory_name/'
 filename = "log.txt"
 mk_each_dir(sftp, directory)
 sftp.chdir(directory)
